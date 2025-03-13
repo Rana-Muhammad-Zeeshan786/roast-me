@@ -61,7 +61,7 @@ export default function Home() {
 
         <footer className="mt-12 text-center text-sm text-muted-foreground">
           <p>All roasts are generated for entertainment purposes only. <br />
-             Keep it fun and don't take it personally! 😉</p>
+             Keep it fun and don&apos;t take it personally! 😉</p>
         </footer>
       </div>
       

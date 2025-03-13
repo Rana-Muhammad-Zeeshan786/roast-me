@@ -1,7 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server';
+import {  NextResponse } from 'next/server';
 
 // This API route handles requests for sharing roast content
-export async function GET(request: NextRequest) {
+export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://roast-me-app.com';
   
   // Return metadata optimized for social sharing
